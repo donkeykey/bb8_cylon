@@ -4,7 +4,7 @@ var Cylon = require("cylon");
 
 Cylon.robot({
     connections: {
-        myo: { adaptor: "myo", app_name: "com.splitelement.myappid" }
+        myo: { adaptor: "myo", app_name: "f001ec35439d4449879d0cf06405be9b" }
     },
 
     devices: {

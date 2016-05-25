@@ -20,11 +20,11 @@ Cylon.robot({
             console.log("DOWN PRESSED!");
             bb.bb8.roll(60, 180);
         });
-        my.keyboard.on('left', function(key) {
+        my.keyboard.on('right', function(key) {
             console.log("LEFT PRESSED!");
             bb.bb8.roll(60, 90);
         });
-        my.keyboard.on('right', function(key) {
+        my.keyboard.on('left', function(key) {
             console.log("RIGHT PRESSED!");
             bb.bb8.roll(60, 270);
         });
